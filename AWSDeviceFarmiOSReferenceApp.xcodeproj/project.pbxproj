@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2925E4C11EC5140900CC1907 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 2925E4C01EC5140900CC1907 /* Reachability.m */; };
 		5D144F231B27D66B00BF3AC9 /* NativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D144F221B27D66B00BF3AC9 /* NativeViewController.m */; };
 		5D144F261B2832E700BF3AC9 /* NativeViewCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D144F251B2832E700BF3AC9 /* NativeViewCollectionViewCell.m */; };
 		5D144F291B28389C00BF3AC9 /* ImageGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D144F281B28389C00BF3AC9 /* ImageGalleryViewController.m */; };
@@ -81,6 +82,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2925E4BF1EC5140900CC1907 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		2925E4C01EC5140900CC1907 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		5D144F211B27D66B00BF3AC9 /* NativeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeViewController.h; sourceTree = "<group>"; };
 		5D144F221B27D66B00BF3AC9 /* NativeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeViewController.m; sourceTree = "<group>"; };
 		5D144F241B2832E700BF3AC9 /* NativeViewCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeViewCollectionViewCell.h; sourceTree = "<group>"; };
@@ -223,6 +226,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2925E4BE1EC513F900CC1907 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				2925E4BF1EC5140900CC1907 /* Reachability.h */,
+				2925E4C01EC5140900CC1907 /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
 		5D144F201B27D64C00BF3AC9 /* Native Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -324,6 +336,7 @@
 		5D4BC9ED1B44C27D007E20AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2925E4BE1EC513F900CC1907 /* Reachability */,
 				7FC7EACC1D41453C001F08C9 /* SystemConfiguration.framework */,
 				5D144F451B28601E00BF3AC9 /* AVFoundation.framework */,
 				5D144F3B1B28537400BF3AC9 /* MediaPlayer.framework */,
@@ -591,6 +604,7 @@
 				5D4D0B9C1B255E5900C1C52F /* HomePageViewController.m in Sources */,
 				5D144F371B284D5900BF3AC9 /* ElementsTableViewController.m in Sources */,
 				5D144F441B285B8200BF3AC9 /* CameraViewController.m in Sources */,
+				2925E4C11EC5140900CC1907 /* Reachability.m in Sources */,
 				5D144F341B2844FF00BF3AC9 /* ScrollingViewController.m in Sources */,
 				5D144F311B28409200BF3AC9 /* ImageGalleryCollectionViewCell.m in Sources */,
 				5D26D8931B26360800E2E4B5 /* SecondViewController.m in Sources */,
