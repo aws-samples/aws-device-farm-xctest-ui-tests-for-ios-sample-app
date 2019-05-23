@@ -18,7 +18,7 @@
 static NSString * const HTTP_TAB_ID = @"HTTP";
 static NSString * const NAVIGATION_BAR_ID = @"navigation bar";
 static NSString * const GO_BUTTON_ID = @"Go";
-static NSString * const URL = @"https://aws.amazon.com/documentation/devicefarm/";
+static NSString * const URL = @"https://docs.aws.amazon.com/devicefarm";
 static NSString * const DEVELOPER_GUIDE_LINK_ID = @"Developer Guide";
 static NSString * const EXISTS_PREDICATE = @"exists==1";
 static NSTimeInterval const TAP_DELAY = 1;
